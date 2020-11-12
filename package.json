@@ -1,0 +1,38 @@
+{
+  "name": "revealed",
+  "version": "1.0.0",
+  "description": "- react-admin https://marmelab.com/react-admin/Tutorial.html - material-ui https://material-ui.com/ - graphql-playground https://github.com/graphql/graphql-playground - next.js - Hasura - PostGres - Firebase auth - Fireabse analytics - Firebase Push | Dynamic Links",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-initial": "npx graphql-codegen init",
+    "generate": "graphql-codegen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevEngage/revealed.git"
+  },
+  "keywords": [
+    "complete",
+    "app",
+    "mobile",
+    "serverless"
+  ],
+  "author": "DevEngage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevEngage/revealed/issues"
+  },
+  "homepage": "https://github.com/DevEngage/revealed#readme",
+  "dependencies": {
+    "faker": "^5.1.0",
+    "graphql": "^15.4.0",
+    "mongodb": "^3.6.3"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.19.1"
+  }
+}
