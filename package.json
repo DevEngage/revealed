@@ -11,7 +11,9 @@
     "generate-initial": "npx graphql-codegen init",
     "generate": "graphql-codegen",
     "start:dev": "cd ./admin && cross-env PORT=3001 npm start",
-    "start": "cd ./admin && cross-env PORT=3001 npm start"
+    "start": "cd ./admin && cross-env PORT=3001 npm start",
+    "initial": "npm i -g vercel",
+    "build:main": "tsc ./modules && node ./build.js"
   },
   "repository": {
     "type": "git",
@@ -32,7 +34,8 @@
   "dependencies": {
     "faker": "^5.1.0",
     "graphql": "^15.4.0",
-    "mongodb": "^3.6.3"
+    "mongodb": "^3.6.3",
+    "mv": "^2.1.1"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^1.19.1",
