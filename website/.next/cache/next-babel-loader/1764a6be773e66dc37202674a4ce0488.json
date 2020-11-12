@@ -1,0 +1,1 @@
+{"ast":null,"code":"module.exports = (req, res) => {\n  res.json({\n    body: req.body,\n    query: req.query,\n    cookies: req.cookies\n  });\n};","map":null,"metadata":{},"sourceType":"script"}
