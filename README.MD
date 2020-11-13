@@ -6,12 +6,18 @@
 - cloudinary-react https://github.com/cloudinary/cloudinary-react
 - react-hook-form https://react-hook-form.com/
 - https://graphql-code-generator.com/docs/getting-started/index
+- auto build mobile with Codemagic https://github.com/marketplace/codemagic-ci-cd
 - next.js
 - Hasura
-- PostGres
+- PostGreSQL
 - Firebase auth
 - Fireabse analytics
 - Firebase Push | Dynamic Links
+- SendGrid (email)
+
+### Optional
+
+- https://storybook.js.org/
 
 ## Languages
 
@@ -21,7 +27,7 @@
 ## Auth
 
 - Firebase adapter
-- Meteor ''o [iiadapter
+- Meteor to Firebase?
 
 ## Server
 
@@ -29,10 +35,10 @@
 
 - Vercel adapter
 - Gcloud adapter
-- Lambda adapter
-- Azure adapter
 
 ## Data
+
+GraphQL Types
 
 ### GraphQL
 
@@ -42,7 +48,6 @@
 - Postgres adapter
 - Firestore adapter
 - Fuana adapter
-- DynamicDB adapter
 
 ## Modules
 
@@ -60,4 +65,6 @@
 
 ### Social
 
-+-0=079768574d36s52abvtrcexwzrcv7tvrcuyebyxnuvtmbiy,onu.pmi./[uno,ybiu.pmi/[,o}>P|O<{?Imp.uni/[,o}>P|?{P>}O<{?Imp[,o}>P|?{}{?]}]}]]
+### Use react native instead of flutter?
+
+- run tests

@@ -1,4 +1,17 @@
-var mv = require('mv')
+const mv = require('mv')
+const yaml = require('js-yaml')
+const fs = require('fs')
+
+const getYaml = () => {
+  try {
+    let fileContents = fs.readFileSync('./data.yaml', 'utf8')
+    let data = yaml.safeLoad(fileContents)
+    console.log(data)
+    return fileContents
+  } catch (e) {
+    console.log(e)
+  }
+}
 
 const main = () => {
   mv('source/file', 'dest/file', function (err) {
@@ -7,6 +20,7 @@ const main = () => {
     // the source file.
   })
   console.log('test')
+  const yamlFile = getYaml()
 }
 
 main()

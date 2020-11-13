@@ -1,0 +1,14 @@
+name: revealed_project
+description: App Bundle Kit - Build multi-platform projects ⚡️ fast!
+version: 0.5.0
+
+theme:
+  primary: \#8d57ff
+  secondary: \#ff5757
+  green: \#00d27a
+  info: \#27bcfd
+  warning: \#f5803e
+  danger: \#ff679b
+
+googleAnalytics:
+  apiKey: G-FCX09VVKTY
