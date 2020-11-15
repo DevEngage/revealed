@@ -15,6 +15,8 @@
 - Firebase Push | Dynamic Links
 - SendGrid (email)
 
+https://github.com/the-road-to-graphql/fullstack-apollo-express-postgresql-boilerplate
+
 ### Optional
 
 - https://storybook.js.org/
@@ -45,6 +47,8 @@ GraphQL Types
 ### Database
 
 - MongoDB adapter
+  - https://medium.com/@dev.prasenjitsaha/migrate-mongodb-data-to-cloud-firestore-79a68ee18aa3
+  - https://www.npmjs.com/package/node-firestore-import-export
 - Postgres adapter
 - Firestore adapter
 - Fuana adapter
