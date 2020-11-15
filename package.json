@@ -13,7 +13,10 @@
     "start:dev": "cd ./admin && cross-env PORT=3001 npm start",
     "start": "cd ./admin && cross-env PORT=3001 npm start",
     "initial": "npm i -g vercel",
-    "build:main": "tsc ./modules && node ./build.js"
+    "build:main": "tsc ./modules && node ./build.js",
+    "export:mongodb": "./mongo_export.sh",
+    "import:hasura": "json2graphql https://hasura-cgpt.onrender.com -s <admin-secret> -d json_hasura_import.js",
+    "backup:hasura-meta": "hasura metadata export --admin-secret <admin-secret>"
   },
   "repository": {
     "type": "git",
@@ -32,6 +35,7 @@
   },
   "homepage": "https://github.com/DevEngage/revealed#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "faker": "^5.1.0",
     "graphql": "^15.4.0",
     "js-yaml": "^3.14.0",
